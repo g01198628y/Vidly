@@ -66,10 +66,10 @@
                 data:vm
             })
             .done(function () {
-
+                toastr.success("Rentals successfully recorded.")
             })
             .fail(function () {
-
+                toastr.error("error");
             })
                
         });
